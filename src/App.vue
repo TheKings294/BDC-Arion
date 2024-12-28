@@ -3,9 +3,15 @@ import NavBar from './components/navBar.vue'
 </script>
 
 <template>
-  <header>
-    <navBar></navBar>
-  </header>
+  <div>
+    <nav>
+      <router-link to="/">Acceuil</router-link>
+      <router-link to="/home">Home</router-link>
+    </nav>
+  </div>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <style scoped>
