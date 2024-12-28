@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h1>Je suis la deuxieme page</h1>
+  <h1>Page Acceuil</h1>
 </template>
 
 <style scoped>
