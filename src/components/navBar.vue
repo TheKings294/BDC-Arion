@@ -1,30 +1,24 @@
 <script setup>
 </script>
+
 <template>
-    <section class="NavBar">
-        <a href="#"><img src="/src/assets/logo bdc.png" alt="Logo Bureau des cavaliers"></a>
-        <nav>
-            <a href="../Team.vue">L'equipe</a>
-            <a href="#"></a>
-            <a href="#"></a>
-        </nav>
-    </section>
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="navbar-brand" href="#"><img src="" alt="Bootstrap" width="30" height="24"></a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+            </div>
+        </div>
+    </nav>
 </template>
 
 <style scoped>
-.NavBar {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
-nav {
-    display: flex;
-    align-items: center;
-}
-nav>a {
-    margin: 10px;
-}
-img {
-    width: 50px;
-}
 </style>
