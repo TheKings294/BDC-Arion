@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <h1>Page Partenaria</h1>
-  <div id="carouselle-partner"></div>
+  <article>
+  </article>
 </template>
 
 <style scoped>
