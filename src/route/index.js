@@ -5,6 +5,7 @@ import about from '../components/about.vue'
 import why_me from '../components/why_me.vue'
 import partner from '../components/partner.vue'
 import event from '../components/event.vue'
+import form from '../components/form.vue'
 
 const routes = [
     {path: '/', name: 'home', component: home},
@@ -12,6 +13,7 @@ const routes = [
     {path: '/why_me', name: 'Pourquoi nous', component: why_me},
     {path: '/partner', name: 'Partenaria', component: partner},
     {path: '/events', name: 'Evenements', component: event},
+    {path: '/form', name: 'Formulaire', component: form},
 ]
 
 const router = createRouter({

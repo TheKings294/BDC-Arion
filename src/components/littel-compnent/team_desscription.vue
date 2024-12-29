@@ -1,5 +1,9 @@
 <script setup>
-
+defineProps({
+  names: String,
+  role: String,
+  description: String
+})
 </script>
 
 <template>
@@ -8,11 +12,9 @@
         <img>
     </div>
     <div class="description-face">
-        <h4>
-
-        </h4>
-        <p></p>
-        <p></p>
+        <h4>{{ names }}</h4>
+        <p>{{ role }}</p>
+        <p>{{ description }}</p>
     </div>
   </article>
 </template>

@@ -1,9 +1,22 @@
-<script setup>
+<script>
+export default {
+  name: 'App',
+  computed: {
+    showNavbar() {
+      // Masquer la navbar uniquement pour la route '/formulaire'
+      return this.$route.path !== '/form';
+    },
+    showFooter() {
+      // Masquer le footer uniquement pour la route '/formulaire'
+      return this.$route.path !== '/form';
+    }
+  }
+}
 </script>
 
 <template>
   <div>
-        <nav class="navbar bg-body-tertiary navbar-expand-lg">
+        <nav class="navbar bg-body-tertiary navbar-expand-lg" v-if="showNavbar">
           <div class="container-fluid">
             <router-link to="/" class="navbar-brand">
               <img src="" alt="Bootstrap" width="30" height="24">
@@ -26,10 +39,13 @@
             </div>
           </div>
         </nav>
-      </div>
+  </div>
   <div>
     <router-view></router-view>
   </div>
+  <footer v-if="showFooter">
+    <router-link to="/form">Formulaire</router-link>
+  </footer>
 </template>
 
 <style scoped>
