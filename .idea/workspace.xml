@@ -4,110 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3da445fd-8315-439d-8d42-b0392a915e15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/carousel/photo carroussel page daccueil 3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/carousel/photo carroussel page daccueil 4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/carousel/photo carroussel page daccueil 5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/carousel/photo carroussel page daccueil.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/carte+%27orl%C3%A9ans%27.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fl%C3%A8che+valeur.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fl%C3%A8che.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fl%C3%A8ches+valeur.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/fl%C3%A8ches+valeurs.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/formule+classique.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/formule+excellence.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/formule+premium.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/formule+prestige.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/formule+rayonnement.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/formule+renomm%C3%A9.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/formule+royale.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/image+1+en+savoir+plus.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/image+2+en+savoir+plus.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/image+3+en+savoir+plus.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/image+bella*marion*cassille*lison.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/mot de la presidente.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres Cassille.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres chloe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres clemence.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres elinn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres ilona.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres ines.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres lison.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres lola.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres mailys.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres manon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/persons/pres orlane.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/photo fond noir.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/valeur+inclusion.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/valeur+innovation.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/valeur+respect.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/version+mobile+%27%C3%A9v%C3%A9nements%27.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/version+ordi+%27%C3%A9v%C3%A9nements%27.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/Logo Arion.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/Logo sans fond.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/logo ISC blanc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/logo ISC noir.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/logo bdc.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/astro/component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/astro/index.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/index.d.mts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/index.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/index.mjs.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/next/index.d.mts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/next/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/next/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/next/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/next/index.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/next/index.mjs.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/nuxt/index.d.mts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/nuxt/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/nuxt/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/nuxt/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/nuxt/index.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/nuxt/index.mjs.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/react/index.d.mts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/react/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/react/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/react/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/react/index.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/react/index.mjs.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/remix/index.d.mts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/remix/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/remix/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/remix/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/remix/index.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/remix/index.mjs.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/sveltekit/index.d.mts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/sveltekit/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/sveltekit/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/sveltekit/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/sveltekit/index.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/sveltekit/index.mjs.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/vue/index.d.mts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/vue/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/vue/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/vue/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/vue/index.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/dist/vue/index.mjs.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/jest.setup.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/scripts/postinstall.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vercel/speed-insights/tsup.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.vue" afterDir="false" />
-    </list>
+    <list default="true" id="3da445fd-8315-439d-8d42-b0392a915e15" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +92,7 @@
       <workItem from="1733932542690" duration="1172000" />
       <workItem from="1735488555311" duration="3481000" />
       <workItem from="1735493812258" duration="18000" />
-      <workItem from="1737796157888" duration="5159000" />
+      <workItem from="1737796157888" duration="5487000" />
     </task>
     <servers />
   </component>
