@@ -19,7 +19,7 @@ export default {
         <nav class="navbar bg-body-tertiary navbar-expand-lg" v-if="showNavbar">
           <div class="container-fluid">
             <router-link to="/" class="navbar-brand">
-              <img src="" alt="Bootstrap" width="30" height="24">
+              <img src="./assets/svg/Logo%20Arion.svg" alt="Bootstrap" width="30" height="24">
             </router-link>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">

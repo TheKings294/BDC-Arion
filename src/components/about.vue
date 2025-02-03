@@ -1,5 +1,7 @@
 <script setup>
 import team_description from './littel-compnent/team_desscription.vue'
+
+const Cassille = "../assets/img/persons/pres Cassille.jpg"
 </script>
 
 <template>
@@ -8,8 +10,8 @@ import team_description from './littel-compnent/team_desscription.vue'
     <img src="" alt="">
   </div>
   <div id="about-bdc-description">
-    <team_description :names="'Antoine'" :description="'Je suis jeune'" :role="'Developpeur Senior'" ></team_description>
-    <team_description :names="'Kilian'" :description="'Je suis jeune'" :role="'Developpeur Junior'" ></team_description>
+    <team_description :names="'Antoine'" :description="'Je suis jeune'" :role="'Developpeur Senior'" :image="Cassille" ></team_description>
+    <team_description :names="'Kilian'" :description="'Je suis jeune'" :role="'Developpeur Junior'" :image="Cassille" ></team_description>
   </div>
   <div id="baniere-about-two">
     <img src="" alt="">

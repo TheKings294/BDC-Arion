@@ -2,14 +2,15 @@
 defineProps({
   names: String,
   role: String,
-  description: String
+  description: String,
+  image: String
 })
 </script>
 
 <template>
   <article>
     <div class="face">
-        <img>
+        <img :src="image" alt="">
     </div>
     <div class="description-face">
         <h4>{{ names }}</h4>
