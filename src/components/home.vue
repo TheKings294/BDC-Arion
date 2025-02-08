@@ -1,5 +1,5 @@
 <script setup>
-
+document.querySelector('body').style.background = '#000'
 </script>
 
 <template>
