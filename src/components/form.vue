@@ -23,6 +23,9 @@ onMounted(() => {
 </script>
 
 <template>
+  <div>
+    <router-link to="/">Acceuil</router-link>
+  </div>
   <div class="ms-5 me-5">
     <form id="form" class="d-flex justify-content-center align-items-center flex-wrap mt-4">
       <div class="mb-3">

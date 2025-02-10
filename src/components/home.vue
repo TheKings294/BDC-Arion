@@ -23,19 +23,19 @@ document.querySelector('body').style.background = '#000'
   <div id="carousel-main-page" class="carousel slide carousel-fade carousel-dark" data-bs-ride="true">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../assets/img/carousel/première%20photo%20carroussel%20page%20daccueil.webp" class="d-block w-100" alt="Image Carousel">
+        <img src="../assets/img/carousel/première%20photo%20carroussel%20page%20daccueil.webp" class="d-block w-100 img-lenght" alt="Image Carousel">
       </div>
       <div class="carousel-item">
-        <img src="../assets/img/carousel/photo%20carroussel%20page%20daccueil.webp" class="d-block w-100" alt="Image Carousel">
+        <img src="../assets/img/carousel/photo%20carroussel%20page%20daccueil.webp" class="d-block w-100 img-lenght" alt="Image Carousel">
       </div>
       <div class="carousel-item">
-        <img src="../assets/img/carousel/photo%20carroussel%20page%20daccueil%203.webp" class="d-block w-100" alt="Image Carousel">
+        <img src="../assets/img/carousel/photo%20carroussel%20page%20daccueil%203.webp" class="d-block w-100 img-lenght" alt="Image Carousel">
       </div>
       <div class="carousel-item">
-        <img src="../assets/img/carousel/photo%20carroussel%20page%20daccueil%204.webp" class="d-block w-100" alt="Image Carousel">
+        <img src="../assets/img/carousel/photo%20carroussel%20page%20daccueil%204.webp" class="d-block w-100 img-lenght" alt="Image Carousel">
       </div>
       <div class="carousel-item">
-        <img src="../assets/img/carousel/photo%20carroussel%20page%20daccueil%205.webp" class="d-block w-100" alt="Image Carousel">
+        <img src="../assets/img/carousel/photo%20carroussel%20page%20daccueil%205.webp" class="d-block w-100 img-lenght" alt="Image Carousel">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carousel-main-page" data-bs-slide="prev">
@@ -73,5 +73,8 @@ document.querySelector('body').style.background = '#000'
 #president-txt-home {
   padding-left: 7rem;
   padding-right: 7rem;
+}
+.img-lenght {
+  max-width: 1400px;
 }
 </style>
