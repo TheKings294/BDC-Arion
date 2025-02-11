@@ -8,6 +8,7 @@ import event from '../components/event.vue'
 import form from '../components/form.vue'
 import spring_jump from '../components/spring_jump.vue'
 
+
 const routes = [
     {path: '/', name: 'home', component: home},
     {path: '/about', name: 'Qui sommes nous', component: about},
@@ -22,5 +23,5 @@ const router = createRouter({
     history: createWebHistory(),
     routes,
   })
-  
+
 export default router
