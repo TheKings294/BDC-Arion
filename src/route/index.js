@@ -7,6 +7,7 @@ import partner from '../components/partner.vue'
 import event from '../components/event.vue'
 import form from '../components/form.vue'
 
+
 const routes = [
     {path: '/', name: 'home', component: home},
     {path: '/about', name: 'Qui sommes nous', component: about},
@@ -20,5 +21,5 @@ const router = createRouter({
     history: createWebHistory(),
     routes,
   })
-  
+
 export default router
