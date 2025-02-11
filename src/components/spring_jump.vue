@@ -1,8 +1,7 @@
 <script setup>
 import carte from '@/assets/img/carte.webp'
 import arrow from '@/assets/img/fleche.webp'
-import ban1 from '@/assets/img/photo-1-orléans-spring-jump.webp'
-import ban2 from '@/assets/img/photo-2-orléans-spring-jump.webp'
+
 </script>
 
 <template>
@@ -17,7 +16,7 @@ import ban2 from '@/assets/img/photo-2-orléans-spring-jump.webp'
     <p class="fs-4">Avec des cavaliers<br> de la France entière</p>
   </div>
   <div id="baniere-spring-one" class="mt-5 mb-5">
-    <img :src="ban1" alt="">
+    <img src="../assets/img/photo-1-orléans-spring-jump.webp" alt="">
   </div>
   <div id="programme-description">
     <h2 class="text-center">Au programme :</h2>
@@ -34,7 +33,7 @@ import ban2 from '@/assets/img/photo-2-orléans-spring-jump.webp'
     </article>
   </div>
   <div id="baniere-spring-two" class="mt-">
-    <img :src="ban2" alt="">
+    <img src="../assets/img/photo-2-orléans-spring-jump.webp" alt="">
   </div>
   <div id="long-text">
     <p>
