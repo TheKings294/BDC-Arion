@@ -7,10 +7,10 @@ document.querySelector("body").style.background = "#000";
   <div class="row py-5 d-flex align-items-center py-5">
     <div class="col-7 d-flex justify-content-center">
       <img
-        src="../assets/img/image.png"
+        src="../assets/img/poney.webp"
         alt="Image de cheval"
         id="horse-img"
-        class="img-fluid col-8"
+        class="img-fluid col-6"
       />
     </div>
     <div class="col-5 text-center text-white">

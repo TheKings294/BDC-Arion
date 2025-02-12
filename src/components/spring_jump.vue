@@ -1,75 +1,86 @@
 <script setup>
-import carte from '@/assets/img/carte.webp'
-import arrow from '@/assets/img/fleche.webp'
-
+import carte from '@/assets/img/carte.webp';
+import arrow from '@/assets/img/fleche.webp';
 </script>
 
 <template>
-  <h1 class="text-center fs-1">Orléans Spring Jump</h1>
-  <div id="spring-jump-decription" class="ms-4 me-4 text-center fs-4">
-    <p class="mt-4">Une comptétition de saut d'obstacles amateur et profesionel sur le jours, c'est l'ambition du Bureau des
-      Cavalier Arions pour 2025</p>
-  </div>
-  <div id="france-map" class="d-flex justify-content-center align-items-center mt-5">
-    <img :src="carte" alt="carte france" width="300" height="300">
-    <img :src="arrow" alt="" width="300" height="100" class="align-self-end ms-3 me-3">
-    <p class="fs-4">Avec des cavaliers<br> de la France entière</p>
-  </div>
-  <div id="baniere-spring-one" class="mt-5 mb-5">
-    <img src="../assets/img/photo-1-orléans-spring-jump.webp" alt="">
-  </div>
-  <div id="programme-description">
-    <h2 class="text-center">Au programme :</h2>
-    <article>
-      <p class="text-center ms-4">-Une compétition ofrant l'oppotunité de rivaliser dans un cadre exeptionnel<br>
-         -Des spectacles<br>
-         -de l'handisport<br>
-         -et bien plus encore<br>
-      </p>
-      <p style="font-style: italic" class="text-center">
-        Le Orléans Spring Jump vous offres un lieu de visibilité, vous permettant de prendre contact avec divers auteur
-        important de notre prestigieux monde equestre
-      </p>
-    </article>
-  </div>
-  <div id="baniere-spring-two" class="mt-">
-    <img src="../assets/img/photo-2-orléans-spring-jump.webp" alt="">
-  </div>
-  <div id="long-text">
-    <p>
-      Vivez une expérience inoubliable en assistant au Orléans Spring Jump.
-      Venez profiter de notre espace partenaire. Équipé d’une restauration de qualité, vous pourrez retrouver un buffet
-      haut de gamme.
-      Découvrez l’endroit parfait pour établir de nouveaux contact et faire de nouvelles rencontres tout en admirant de
-      près une compétition de saut d’obstacle de haut niveau sans oublier des spectacles et des animations en tout genre.
+  <div class="container my-5">
+    <!-- Titre -->
+    <h1 class="text-center fw-bold">Orléans Spring Jump</h1>
 
-    </p>
+    <!-- Introduction -->
+    <div class="text-center fs-4 mx-auto mt-4 px-3 text-break">
+      <p>
+        Une compétition de saut d'obstacles amateur et professionnel sur plusieurs jours.
+        C'est l'ambition du Bureau des Cavaliers Arions pour 2025.
+      </p>
+    </div>
+
+    <!-- Section carte + flèche + texte -->
+    <div class="row align-items-center justify-content-center text-center mt-5 g-3">
+      <div class="col-md-4">
+        <img :src="carte" alt="Carte de la France" class="img-fluid" style="max-width: 300px;">
+      </div>
+      <div class="col-md-2 d-flex justify-content-center">
+        <img :src="arrow" alt="Flèche" class="img-fluid arrow-img">
+      </div>
+      <div class="col-md-4">
+        <p class="fs-4">Avec des cavaliers <br> de la France entière</p>
+      </div>
+    </div>
+
+    <!-- Première bannière -->
+    <div class="mt-5">
+      <img src="../assets/img/photo-1-orleans-spring-jump.webp" alt="Bannière 1" class="img-fluid w-100">
+    </div>
+
+    <!-- Programme -->
+    <div class="mt-5">
+      <h2 class="text-center fw-bold">Au programme :</h2>
+      <article class="text-center mx-auto px-3 text-break">
+        <p class="fw-semibold">
+          - Une compétition dans un cadre exceptionnel <br>
+          - Des spectacles <br>
+          - Du handisport <br>
+          - Et bien plus encore...
+        </p>
+        <p class="fst-italic">
+          L'Orléans Spring Jump vous offre une opportunité unique de visibilité,
+          vous permettant de prendre contact avec divers acteurs du monde équestre.
+        </p>
+      </article>
+    </div>
+
+    <!-- Deuxième bannière -->
+    <div class="mt-5">
+      <img src="../assets/img/photo-2-orleans-spring-jump.webp" alt="Bannière 2" class="img-fluid w-100">
+    </div>
+
+    <!-- Description longue -->
+    <div class="mt-5">
+      <p class="text-center fs-5 px-3 text-break">
+        Vivez une expérience inoubliable en assistant à l'Orléans Spring Jump.
+        Profitez de notre espace partenaire équipé d’une restauration haut de gamme et d’un buffet d’exception.
+        Découvrez l’endroit parfait pour établir de nouveaux contacts et faire de nouvelles rencontres,
+        tout en admirant une compétition de saut d’obstacles de haut niveau.
+        Sans oublier des spectacles et des animations en tout genre !
+      </p>
+    </div>
   </div>
 </template>
 
 <style scoped>
-#baniere-spring-one {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-}
-#baniere-spring-one img {
-  width: 100%;
+/* Ajustement de l'image flèche */
+.arrow-img {
+  max-width: 150px;
   height: auto;
-  display: block;
-  object-fit: cover;
-  object-position: center center;
+  object-fit: contain;
 }
-#baniere-spring-two {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-}
-#baniere-spring-two img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  object-position: center center;
+
+/* Espacement sur mobile */
+@media (max-width: 768px) {
+  .fs-4 {
+    font-size: 1.2rem;
+  }
 }
 </style>
