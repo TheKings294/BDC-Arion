@@ -3,7 +3,7 @@ defineProps({
   names: { type: String, default: "Nom inconnu" },
   role: { type: String, default: "Rôle non spécifié" },
   description: { type: String, default: "Aucune description disponible." },
-  image: { type: String, default: "" }
+  image: { type: String, default: "aaaaaaaa" }
 });
 </script>
 

@@ -53,9 +53,8 @@ export default {
   </div>
 
   <!-- Contenu dynamique -->
-  <div class="container mt-4">
+
     <router-view></router-view>
-  </div>
 
   <!-- Footer -->
  <footer v-if="showFooter" class="bg-light">
