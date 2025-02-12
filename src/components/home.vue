@@ -1,6 +1,4 @@
-<script setup>
-document.querySelector("body").style.background = "#000";
-</script>
+
 
 <template>
 <div class="container-fluid">
@@ -14,8 +12,8 @@ document.querySelector("body").style.background = "#000";
       />
     </div>
     <div class="col-5 text-center text-white">
-      <p class="display-2 text-uppercase">ARION</p>
-      <p class="display-2 text-uppercase ">Bureau des cavaliers</p>
+      <h1 class="display-2 text-uppercase">ARION</h1>
+      <h2 class="display-2 text-uppercase ">Bureau des cavaliers</h2>
       <p class="fs-3 text-warning">Vivez l’excellence événementielle</p>
       <p class="fs-3">à travers l’univers équestre</p>
     </div>
@@ -33,8 +31,7 @@ document.querySelector("body").style.background = "#000";
       </div>
       <div class="col-6 d-flex justify-end align-content-end">
         <blockquote class="blockquote">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "Guidés par notre vision commune de promouvoir l’excellence des sports équestres et l’innovation du domaine sportif, nous créons un événement unique en son genre qui fusionne tradition, inclusion et modernité."
           </blockquote>
       </div>
     </div>

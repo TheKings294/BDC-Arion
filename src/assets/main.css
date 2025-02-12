@@ -3,9 +3,37 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Ablation';
+  src: url('@/assets/Font/Ablation.otf') format('truetype');
+}
 
+@font-face {
+  font-family: 'Glacial';
+  src: url('@/assets/Font/Glacial.otf') format('truetype');
+}
+
+body {
+background-color: #f0f5f9;
+  /* Très léger gris */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ablation', sans-serif;
+}
+
+p,
+a {
+  font-family: 'Glacial', sans-serif;
+}
 
 a {
   text-decoration: none;
@@ -20,5 +48,4 @@ a {
   }
 }
 
-@media (min-width: 1024px) {
-}
+@media (min-width: 1024px) {}

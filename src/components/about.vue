@@ -80,7 +80,7 @@ const teamMembers = [
 <style scoped>
 .banner {
   height: 300px;
-  width: 100vw;
+  width: 100%;
 }
 
 .logo {
