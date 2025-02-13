@@ -24,4 +24,14 @@ const router = createRouter({
     routes,
   })
 
+  router.beforeEach((to, from, next) => {
+    if (to.path === "/") {
+      document.body.style.backgroundColor = document.body.style.background =
+        "#1c1c1e";
+    } else {
+      document.body.style.backgroundColor = "#f0f5f9";
+    }
+    next();
+  });
+
 export default router

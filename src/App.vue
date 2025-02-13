@@ -83,14 +83,6 @@ export default {
   padding: 10px 20px;
 }
 
-.navbar-nav .nav-link {
-  color: #333;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #007bff;
-}
-
 /* Footer */
 footer {
   border-top: 1px solid #ddd;

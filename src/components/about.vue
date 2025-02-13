@@ -33,13 +33,14 @@ const teamMembers = [
 
     <!-- Présentation -->
     <div class="container py-5 text-center">
-      <h1 class="display-3 fw-bold">QUI SOMMES-NOUS ?</h1>
+      <h1 class="display-3 fw-bold">QUI SOMMES&ndash;NOUS ?</h1>
+
       <p class="mt-3">
-        Le Bureau des Cavaliers Arion, dit BDC, est une association orléanaise d’évènementiel équestre.
+        Le Bureau des Cavaliers Arion, dit BDC, est une association orléanaise d’événementiel équestre.
       </p>
       <p>Nous sommes basés à ...</p>
       <p>
-        L’ambition première du BDC est l’organisation d’un Jumping, le Orléans Spring Jump, à envergure nationale, mais pas que !
+        L’ambition première du BDC est l’organisation d’un Jumping, l’Orléans Spring Jump, à envergure nationale, mais pas que !
         Le Bureau des Cavaliers organise également des événements tout au long de l’année.
       </p>
       <p>Et il est aujourd’hui composé de 11 cavalières.</p>

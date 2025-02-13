@@ -1,9 +1,6 @@
 
 <script setup>
 import { onMounted } from "vue";
-onMounted(() => {
-  document.querySelector('body').style.background = '#fff'
-  })
 </script>
 
 <template>
@@ -15,7 +12,7 @@ onMounted(() => {
     <h2  class="soustitre">Innovation </h2>
     <p>Le Bureau des Cavaliers et le Parcours Cavaliers ont su se démarquer en France en étant des précurseurs dans le domaine équestre pour l’éducation.  </p>
   </div>
- 
+
   <div>
     <h2 class="soustitre">Inclusion </h2>
     <p>L’objectif du Bureau des Cavaliers consiste à promouvoir tous les cavaliers, en mettant l’accent sur la pratique handisport, et ce, en incluant des athlètes paralympiques.  </p>
@@ -23,7 +20,7 @@ onMounted(() => {
 
   <div>
     <h2 class="soustitre">Respect </h2>
-    <p> Le respect est une valeur fondamentale pour le Bureau des Cavaliers, qui s’efforce de garantir un traitement approprié à chacun et à chaque cheval. 
+    <p> Le respect est une valeur fondamentale pour le Bureau des Cavaliers, qui s’efforce de garantir un traitement approprié à chacun et à chaque cheval.
     </p>
   </div>
 </template>
@@ -40,6 +37,6 @@ onMounted(() => {
 }
 
 .soustitre{
-  
+
 }
 </style>
