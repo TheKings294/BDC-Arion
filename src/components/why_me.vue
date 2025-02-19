@@ -1,6 +1,5 @@
-
 <script setup>
-import { onMounted } from "vue";
+import {Lightbulb, Handshake, HandHeart} from "lucide-vue-next";
 </script>
 
 <template>
@@ -13,19 +12,22 @@ import { onMounted } from "vue";
     <div class="select1">
       <div class="rassemblement"> 
         <h2  class="soustitre">Innovation </h2>
-        <img src="../assets/img/valeur+innovation.webp" class="diminution">
+        <!--<img src="../assets/img/valeur+innovation.webp" class="diminution">-->
+        <Lightbulb :size="60"/>
       </div>
-      <p class="paragraphe">Le Bureau des Cavaliers et le Parcours Cavaliers ont su se démarquer en France en étant des précurseurs dans le domaine équestre pour l’éducation.  </p>
+      <p class="paragraphe">Le Bureau des Cavaliers et le Parcours Cavaliers ont su se démarquer en France en étant des
+        précurseurs dans le domaine équestre pour l’éducation.  </p>
     </div>
   </section>
   <section class="sec2">
     <div class="select2">
       <div class="rassemblement">
         <h2 class="soustitre">Inclusion </h2>
-        <img src="../assets/img/valeur+inclusion.webp" class="diminution">
+        <HandHeart :size="60" />
       </div>
         
-      <p class="paragraphe">L’objectif du Bureau des Cavaliers consiste à promouvoir tous les cavaliers, en mettant l’accent sur la pratique handisport, et ce, en incluant des athlètes paralympiques.  </p>
+      <p class="paragraphe">L’objectif du Bureau des Cavaliers consiste à promouvoir tous les cavaliers, en mettant
+        l’accent sur la pratique handisport, et ce, en incluant des athlètes paralympiques.  </p>
     </div>
   </section>
    
@@ -33,9 +35,10 @@ import { onMounted } from "vue";
     <div class="select1">
       <div class="rassemblement">
         <h2 class="soustitre">Respect </h2>
-        <img src="../assets/img/valeur+respect.webp" class="diminution">
+        <Handshake :size="60" />
       </div>
-      <p class="paragraphe"> Le respect est une valeur fondamentale pour le Bureau des Cavaliers, qui s’efforce de garantir un traitement approprié à chacun et à chaque cheval.
+      <p class="paragraphe"> Le respect est une valeur fondamentale pour le Bureau des Cavaliers, qui s’efforce de
+        garantir un traitement approprié à chacun et à chaque cheval.
       </p>
       
     </div>

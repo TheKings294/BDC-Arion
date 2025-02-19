@@ -1,7 +1,16 @@
 <script setup>
 import TeamDesscription from './littel-compnent/team_desscription.vue';
-
 import { onMounted } from "vue";
+import lison from '@/assets/img/persons/pres-lison.webp'
+import chloe from '@/assets/img/persons/pres-chloe.webp'
+import mailys from '@/assets/img/persons/pres-mailys.webp'
+import ilona from '@/assets/img/persons/pres-ilona.webp'
+import elinn from '@/assets/img/persons/pres-elinn.webp'
+import manon from '@/assets/img/persons/pres-manon.webp'
+import orlane from '@/assets/img/persons/pres-orlane.webp'
+import ines from '@/assets/img/persons/pres-ines.webp'
+import lola from '@/assets/img/persons/pres-lola.webp'
+import clemence from '@/assets/img/persons/pres-clemence.webp'
 
 onMounted(() => {
   document.documentElement.style.backgroundColor = '#fff';
@@ -9,16 +18,16 @@ onMounted(() => {
 
 // Données de l'équipe
 const teamMembers = [
-  { name: "Lison Engelhard", role: "Vice-présidente", image: "../assets/img/persons/pres_lison.jpg" },
-  { name: "Chloé Chaumette", role: "Équipe événementiel", image: "../assets/img/persons/pres_chloe.jpg" },
-  { name: "Maïlys Larroque", role: "Équipe événementiel", image: "../assets/img/persons/pres_mailys.jpg" },
-  { name: "Ilona François-Dit-Charlemagne", role: "Équipe événementiel", image: "../assets/img/persons/pres_ilona.jpg" },
-  { name: "Elinn Lafitte", role: "Équipe partenariats", image: "../assets/img/persons/pres_elinn.jpg" },
-  { name: "Manon Founeau", role: "Équipe partenariats", image: "../assets/img/persons/pres_manon.jpg" },
-  { name: "Orlane Jean-Baptiste", role: "Équipe communication", image: "../assets/img/persons/pres_orlane.jpg" },
-  { name: "Inès Vandentorren", role: "Équipe communication", image: "../assets/img/persons/pres_ines.jpg" },
-  { name: "Lola Corre", role: "Équipe communication", image: "../assets/img/persons/pres_lola.jpg" },
-  { name: "Clémence Levicki", role: "Équipe communication", image: "../assets/img/persons/pres_clemence.jpg" }
+  { name: "Lison Engelhard", role: "Vice-présidente", image: lison},
+  { name: "Chloé Chaumette", role: "Équipe événementiel", image: chloe },
+  { name: "Maïlys Larroque", role: "Équipe événementiel", image: mailys },
+  { name: "Ilona François-Dit-Charlemagne", role: "Équipe événementiel", image: ilona },
+  { name: "Elinn Lafitte", role: "Équipe partenariats", image: elinn },
+  { name: "Manon Founeau", role: "Équipe partenariats", image: manon },
+  { name: "Orlane Jean-Baptiste", role: "Équipe communication", image: orlane },
+  { name: "Inès Vandentorren", role: "Équipe communication", image: ines },
+  { name: "Lola Corre", role: "Équipe communication", image: lola },
+  { name: "Clémence Levicki", role: "Équipe communication", image: clemence }
 ];
 </script>
 
@@ -39,25 +48,27 @@ const teamMembers = [
         Le Bureau des Cavaliers Arion, dit BDC, est une association orléanaise d’événementiel équestre.
       </p>
       <p>Nous sommes basés à ...</p>
+      <img src="../assets/svg/logo-ISC-noir.sig.svg"
+           class="img-fluid my-0 logo"
+           alt="Logo ISC">
       <p>
-        L’ambition première du BDC est l’organisation d’un Jumping, l’Orléans Spring Jump, à envergure nationale, mais pas que !
+        L’ambition première du BDC est l’organisation d’un Jumping, l’Orléans Spring Jump, à envergure nationale,
+        pas que !
         Le Bureau des Cavaliers organise également des événements tout au long de l’année.
       </p>
       <p>Et il est aujourd’hui composé de 11 cavalières.</p>
-      <img src="../assets/svg/logo-ISC-noir.sig.svg"
-           class="img-fluid my-3 logo"
-           alt="Logo BDC">
     </div>
 
     <!-- Présidente -->
     <div class="container text-center mb-5">
       <div class="card mx-auto shadow-lg p-4" style="max-width: 400px;">
-        <img src="../assets/img/persons/pres_cassille.jpg"
+        <img src="../assets/img/persons/pres-Cassille.webp"
              class="card-img-top rounded-circle profile-img">
         <div class="card-body">
           <h4 class="card-title">Cassille Legroux-Chazée</h4>
           <p class="card-text text-muted">Présidente</p>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
     </div>
@@ -79,11 +90,6 @@ const teamMembers = [
 </template>
 
 <style scoped>
-.banner {
-  height: 300px;
-  width: 100%;
-}
-
 .logo {
   width: 150px;
   height: 150px;

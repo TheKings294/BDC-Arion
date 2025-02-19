@@ -16,11 +16,6 @@
   src: url('@/assets/Font/Glacial.otf') format('truetype');
 }
 
-body {
-background-color: ;
-  /* Très léger gris */
-}
-
 h1,
 h2,
 h3,
@@ -41,7 +36,10 @@ a {
   transition: 0.4s;
   padding: 3px;
 }
-
+.banner {
+  height: 300px;
+  width: 100%;
+}
 
 
 @media (min-width: 1024px) {}
