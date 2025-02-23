@@ -25,7 +25,7 @@
         <!-- Image du président -->
         <div class="col-auto">
           <img
-            src="../assets/img/persons/mot%20de%20la%20presidente.jpg"
+            src="../assets/img/persons/mot-de-la-presidente.webp"
             alt="Président du Bureau des Cavaliers"
             class="img-fluid rounded-circle shadow-lg"
             style="width: 160px; height: 160px; object-fit: cover; border: 4px solid #007bff; transition: transform 0.3s ease;"
