@@ -68,7 +68,10 @@ export default {
       <!-- Liens ou autres informations -->
       <div class="col-md-6 text-center text-md-end">
         <ul class="list-unstyled">
-          <li><a href="#" class="text-dark">aaaaa</a></li>
+          <li><a href="https://www.instagram.com/bdc_arion?igsh=cTZwZnQxdWwyZXJh" class="text-dark">  </a></li>
+          <li><a href="https://www.tiktok.com/@bdcarion?_t=ZN-8uAB9RJaPLi&_r=1" class="text-dark"> </a>  </li>
+          <li><a href="https://www.linkedin.com/in/bdc-arion-65a0452a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-dark"> </a> a </li>
+          <li><a href="#" class="text-dark"> </a>  </li>
         </ul>
       </div>
     </div>

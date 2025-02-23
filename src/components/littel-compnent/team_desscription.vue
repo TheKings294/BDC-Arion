@@ -5,6 +5,8 @@ defineProps({
   description: { type: String, default: "Aucune description disponible." },
   image: { type: String, default: "aaaaaaaa" }
 });
+
+
 </script>
 
 <template>
