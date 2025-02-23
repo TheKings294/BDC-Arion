@@ -10,8 +10,8 @@ defineProps({
 
 <template>
   <article :style="{backgroundColor: back, color: color}" class="component rounded mb-3">
-    <h4 class="fs-4 text-center">{{title}}</h4>
-    <p class="text-center">{{content}}</p>
+    <h4 class="fs-4 text-center mt-3">{{title}}</h4>
+    <p class="text-center mt-4">{{content}}</p>
   </article>
 </template>
 

@@ -10,14 +10,11 @@ import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 import formule1 from '@/assets/img/formule+premium.webp';
 import formule2 from '@/assets/img/formule+premium.webp';
 import formule3 from '@/assets/img/formule+excellence.webp';
-import formule4 from '@/assets/img/formule renommé.jpg';
+import formule4 from '@/assets/img/formule+renommee.webp';
 import formule5 from '@/assets/img/formule+prestige.webp';
 import formule6 from '@/assets/img/formule+rayonnement.webp';
 import formule7 from '@/assets/img/formule+royale.webp';
 import formule8 from '@/assets/img/formule+classique.webp';
-
-
-
 </script>
 
 <template>

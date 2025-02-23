@@ -3,8 +3,8 @@ import {Lightbulb, Handshake, HandHeart} from "lucide-vue-next";
 </script>
 
 <template>
-  <div id="wy-me-head">
-    <h1 class="display-3 fw-bold titre">Pourquoi nous?</h1>
+  <div id="wy-me-head" class="mt-4">
+    <h1 class="display-3 fw-bold">Pourquoi nous ?</h1>
     
   </div>
 
@@ -52,51 +52,34 @@ import {Lightbulb, Handshake, HandHeart} from "lucide-vue-next";
 
 <style scoped>
 #wy-me-head{
-  background-color:white;
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
-
 }
-
 .titre{
   text-align: center;
   padding-top: 10px;
   border-bottom: solid black 5px;
   width: 80%;
-
-
 }
-
 .soustitre{
-width: 100%;
-font-size: 50px;
-
+  width: 100%;
+  font-size: 50px;
 }
-
 .select2{
- 
   padding: 5px;
-  
   width: 30%;
   text-align: center;
-
 }
-
 .select1{
   padding: 5px;
-  
   width: 30%;
   text-align: center;
-
-
 }
-
 .paragraphe{
   width: 100%;
   font-size: 20px;
 }
-
 .sec{
   display: flex;
   justify-content: flex-end;
@@ -108,22 +91,17 @@ font-size: 50px;
   justify-content: flex-start;
   padding-left: 80px;
 }
-
 .diminution{
   width: 20%;
   height: 20%;
 }
-
 .rassemblement{
   display: flex;
-  
 }
-
 .bas{
   padding-top: 10px;
   display: flex;
   justify-content: center;
-  
   text-align: center;
 }
 </style>

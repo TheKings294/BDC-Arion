@@ -51,7 +51,7 @@ import { ArrowDownToLine } from 'lucide-vue-next';
 
 .partner-image img {
   width: 100%;
-  height: auto;
+  height: 100px;
   object-fit: cover;
 }
 
