@@ -19,7 +19,7 @@ export default {
       <div class="container-fluid">
         <!-- Logo -->
         <router-link to="/" class="navbar-brand d-flex align-items-center">
-          <img src="./assets/svg/Logo-bdc.sig.svg" alt="Logo" class="img-fluid" style="max-width: 60px; height: auto;">
+          <img src="./assets/svg/logo-bdc.sig.svg" alt="Logo" class="img-fluid" style="max-width: 60px; height: auto;">
         </router-link>
 
         <!-- Bouton burger -->
