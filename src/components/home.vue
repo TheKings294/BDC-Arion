@@ -5,14 +5,16 @@
     <div class="row py-5 d-flex align-items-center">
       <div class="col-md-7 d-flex justify-content-center">
         <img
-          src="../assets/img/poney.webp"
-          alt="Image de cheval"
-          class="img-fluid col-md-6"
+          src="../assets/img/poney.avif"
+          alt="Poney illustrant l'univers équestre"
+          class="img-fluid"
+          style="max-width: 400px; height: auto;"
+          loading="lazy"
         />
       </div>
       <div class="col-md-5 text-center text-white">
-        <h1 class="display-2 text-uppercase">ARION</h1>
-        <h2 class="display-2 text-uppercase">Bureau des cavaliers</h2>
+        <h1 class="display-2 text-uppercase fw-bold">ARION</h1>
+        <h2 class="display-2 text-uppercase fw-bold">Bureau des cavaliers</h2>
         <p class="fs-3 text-warning">Vivez l’excellence événementielle</p>
         <p class="fs-3">à travers l’univers équestre</p>
       </div>
@@ -27,14 +29,14 @@
           <img
             src="../assets/img/persons/mot-de-la-presidente.webp"
             alt="Président du Bureau des Cavaliers"
-            class="img-fluid rounded-circle shadow-lg"
-            style="width: 160px; height: 160px; object-fit: cover; border: 4px solid #007bff; transition: transform 0.3s ease;"
+            class="img-fluid rounded-circle shadow-lg president-img"
+            loading="lazy"
           />
         </div>
 
         <!-- Citation -->
         <div class="col-12 col-md-8">
-          <blockquote class="blockquote p-4 bg-white border-start border-4 border-primary rounded shadow-sm position-relative" style="font-family: 'Georgia', serif; font-size: 1.2rem; line-height: 1.6;">
+          <blockquote class="blockquote p-4 bg-white border-start border-4 border-primary rounded shadow-sm">
             <i class="bi bi-quote display-3 text-primary opacity-25 position-absolute top-0 start-0 translate-middle"></i>
             <p class="mb-0 fw-light fst-italic text-dark">
               "Guidés par notre vision commune de promouvoir l’excellence des sports équestres et l’innovation du domaine sportif, nous créons un événement unique en son genre qui fusionne tradition, inclusion et modernité."
@@ -47,24 +49,12 @@
     </div>
 
     <!-- Section Carousel -->
-    <div class="row py-5">
+    <div class="container">
       <div id="carousel-main-page" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
 
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../assets/img/carousel/a.webp" class="d-block w-100" alt="Image Carousel">
-          </div>
-          <div class="carousel-item">
-            <img src="../assets/img/carousel/b.webp" class="d-block w-100" alt="Image Carousel">
-          </div>
-          <div class="carousel-item">
-            <img src="../assets/img/carousel/c.webp" class="d-block w-100" alt="Image Carousel">
-          </div>
-          <div class="carousel-item">
-            <img src="../assets/img/carousel/d.webp" class="d-block w-100" alt="Image Carousel">
-          </div>
-          <div class="carousel-item">
-            <img src="../assets/img/carousel/e.webp" class="d-block w-100" alt="Image Carousel">
+          <div v-for="(image, index) in carouselImages" :key="index" class="carousel-item" :class="{ active: index === 0 }">
+            <img :src="image.src" class="d-block w-100" :alt="image.alt" loading="lazy">
           </div>
         </div>
 
@@ -85,23 +75,46 @@
     <!-- Section Publications Réseaux Sociaux -->
     <div class="text-center my-5">
       <h1>Nos dernières publications</h1>
-      <img src="" alt="réseaux sociaux" class="img-fluid">
+      <img src="" alt="Aperçu de nos publications sur les réseaux sociaux" class="img-fluid" loading="lazy">
     </div>
 
   </div>
 </template>
 
+<script setup>
+import { ref } from "vue";
+
+// Définition des images du carousel dans un tableau dynamique
+const carouselImages = ref([
+  { src: "../assets/img/carousel/a.webp", alt: "Événement équestre - Image 1" },
+  { src: "../assets/img/carousel/b.webp", alt: "Événement équestre - Image 2" },
+  { src: "../assets/img/carousel/c.webp", alt: "Événement équestre - Image 3" },
+  { src: "../assets/img/carousel/d.webp", alt: "Événement équestre - Image 4" },
+  { src: "../assets/img/carousel/e.webp", alt: "Événement équestre - Image 5" }
+]);
+</script>
+
 <style scoped>
 /* Ajustement des images */
 .carousel-inner img {
   object-fit: cover;
-  object-position:center;
+  object-position: center;
   width: 100%;
   height: 100%;
   max-height: 600px;
 }
 
+/* Limite la hauteur du carousel */
 #carousel-main-page {
   max-height: 600px;
+}
+
+/* Style de l'image du président */
+.president-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 4px solid #007bff;
+  transition: transform 0.3s ease;
 }
 </style>
