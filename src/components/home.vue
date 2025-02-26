@@ -1,3 +1,16 @@
+<script setup>
+import { ref } from "vue";
+
+// Définition des images du carousel dans un tableau dynamique
+const carouselImages = ref([
+  { src: "/assets/img/carousel/e.webp", alt: "Événement équestre - Image 1" },
+  { src: "../aDssets/img/carousel/b.webp", alt: "Événement équestre - Image 2" },
+  { src: "../asseDts/img/carousel/c.webp", alt: "Événement équestre - Image 3" },
+  { src: "../assetDs/img/carousel/d.webp", alt: "Événement équestre - Image 4" },
+  { src: "../assetsD/img/carousel/e.webp", alt: "Événement équestre - Image 5" }
+]);
+</script>
+
 <template>
   <div class="container-fluid">
 
@@ -27,7 +40,7 @@
         <!-- Image du président -->
         <div class="col-auto">
           <img
-            src="../assets/img/persons/mot-de-la-presidente.webp"
+            src="../assets/img/persons/mot-de-la-presidente.avif"
             alt="Président du Bureau des Cavaliers"
             class="img-fluid rounded-circle shadow-lg president-img"
             loading="lazy"
@@ -81,18 +94,7 @@
   </div>
 </template>
 
-<script setup>
-import { ref } from "vue";
 
-// Définition des images du carousel dans un tableau dynamique
-const carouselImages = ref([
-  { src: "../assets/img/carousel/a.webp", alt: "Événement équestre - Image 1" },
-  { src: "../assets/img/carousel/b.webp", alt: "Événement équestre - Image 2" },
-  { src: "../assets/img/carousel/c.webp", alt: "Événement équestre - Image 3" },
-  { src: "../assets/img/carousel/d.webp", alt: "Événement équestre - Image 4" },
-  { src: "../assets/img/carousel/e.webp", alt: "Événement équestre - Image 5" }
-]);
-</script>
 
 <style scoped>
 /* Ajustement des images */

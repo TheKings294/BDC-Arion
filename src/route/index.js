@@ -10,14 +10,38 @@ import spring_jump from '../components/spring_jump.vue'
 
 
 const routes = [
-    {path: '/', name: 'home', component: home},
-    {path: '/about', name: 'Qui sommes nous', component: about},
-    {path: '/why_me', name: 'Pourquoi nous', component: why_me},
-    {path: '/partner', name: 'Partenaria', component: partner},
-    {path: '/events', name: 'Evenements', component: event},
-    {path: '/form', name: 'Formulaire', component: form},
-    {path: '/spring_jump', name: 'Spring_jump', component: spring_jump},
-]
+  { path: "/", name: "home", component: () => import("@/components/home.vue") },
+  {
+    path: "/about",
+    name: "Qui sommes nous",
+    component: () => import("@/components/about.vue"),
+  },
+  {
+    path: "/why_me",
+    name: "Pourquoi nous",
+    component: () => import("@/components/why_me.vue"),
+  },
+  {
+    path: "/partner",
+    name: "Partenariat",
+    component: () => import("@/components/partner.vue"),
+  },
+  {
+    path: "/events",
+    name: "Événements",
+    component: () => import("@/components/event.vue"),
+  },
+  {
+    path: "/form",
+    name: "Formulaire",
+    component: () => import("@/components/form.vue"),
+  },
+  {
+    path: "/spring_jump",
+    name: "Spring Jump",
+    component: () => import("@/components/spring_jump.vue"),
+  },
+];
 
 const router = createRouter({
     history: createWebHistory(),
