@@ -1,16 +1,16 @@
 <script setup>
 import TeamDesscription from './littel-compnent/team_desscription.vue';
 import { onMounted } from "vue";
-import lison from '@/assets/img/persons/pres-lison.webp'
-import chloe from '@/assets/img/persons/pres-chloe.webp'
-import mailys from '@/assets/img/persons/pres-mailys.webp'
-import ilona from '@/assets/img/persons/pres-ilona.webp'
-import elinn from '@/assets/img/persons/pres-elinn.webp'
-import manon from '@/assets/img/persons/pres-manon.webp'
-import orlane from '@/assets/img/persons/pres-orlane.webp'
-import ines from '@/assets/img/persons/pres-ines.webp'
-import lola from '@/assets/img/persons/pres-lola.webp'
-import clemence from '@/assets/img/persons/pres-clemence.webp'
+import lison from '@/assets/img/persons/pres-lison.avif'
+import chloe from '@/assets/img/persons/pres-chloe.avif'
+import mailys from '@/assets/img/persons/pres-mailys.avif'
+import ilona from '@/assets/img/persons/pres-ilona.avif'
+import elinn from '@/assets/img/persons/pres-elinn.avif'
+import manon from '@/assets/img/persons/pres-manon.avif'
+import orlane from '@/assets/img/persons/pres-orlane.avif'
+import ines from '@/assets/img/persons/pres-ines.avif'
+import lola from '@/assets/img/persons/pres-lola.avif'
+import clemence from '@/assets/img/persons/pres-clemence.avif'
 
 onMounted(() => {
   document.documentElement.style.backgroundColor = '#fff';
@@ -35,7 +35,7 @@ const teamMembers = [
   <div class="container-fluid p-0">
     <!-- Bannière pleine largeur -->
     <div class="position-relative banner">
-      <img src="../assets/img/image+bella+marion+cassille+lison.webp"
+      <img src="../assets/img/image-bella-marion-cassille-lison.avif"
            class="img-fluid object-fit-cover"
            alt="Bannière">
     </div>
@@ -62,7 +62,7 @@ const teamMembers = [
     <!-- Présidente -->
     <div class="container text-center mb-5">
       <div class="card mx-auto shadow-lg p-4" style="max-width: 400px;">
-        <img src="../assets/img/persons/pres-Cassille.webp"
+        <img src="../assets/img/persons/pres-Cassille.avif"
              class="card-img-top rounded-circle profile-img">
         <div class="card-body">
           <h4 class="card-title">Cassille Legroux-Chazée</h4>
