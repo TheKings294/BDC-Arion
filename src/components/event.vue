@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import time_1 from '@/assets/img/version+ordi+event.webp';
-import time_2 from '@/assets/img/version+mobile+event.webp';
+import time_1 from '@/assets/img/version-ordi-event.webp';
+import time_2 from '@/assets/img/version-mobile-event.webp';
 import EventDescription from './littel-compnent/event_description.vue';
 
 const times = ref(time_1);

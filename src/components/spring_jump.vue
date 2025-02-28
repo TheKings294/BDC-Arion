@@ -31,7 +31,7 @@ import arrow from '@/assets/img/fleche.webp';
 
     <!-- Première bannière -->
     <div class="mt-5">
-      <img src="../assets/img/photo-1-orleans-spring-jump.webp" alt="Bannière 1" class="img-fluid w-100">
+      <img src="../assets/img/photo-1-orleans-spring-jump.webp" alt="Bannière 1" class="img-fluid">
     </div>
 
     <!-- Programme -->

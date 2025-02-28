@@ -1,14 +1,21 @@
 <script setup>
 import { ref } from "vue";
 
-// Définition des images du carousel dans un tableau dynamique
-const carouselImages = ref([
-  { src: "/assets/img/carousel/e.webp", alt: "Événement équestre - Image 1" },
-  { src: "../aDssets/img/carousel/b.webp", alt: "Événement équestre - Image 2" },
-  { src: "../asseDts/img/carousel/c.webp", alt: "Événement équestre - Image 3" },
-  { src: "../assetDs/img/carousel/d.webp", alt: "Événement équestre - Image 4" },
-  { src: "../assetsD/img/carousel/e.webp", alt: "Événement équestre - Image 5" }
-]);
+
+import imageA from '@/assets/img/carousel/a.avif';
+import imageB from '@/assets/img/carousel/b.avif';
+import imageC from '@/assets/img/carousel/c.avif';
+import imageD from '@/assets/img/carousel/d.avif';
+import imageE from '@/assets/img/carousel/e.webp';
+
+const carouselImages = [
+  { src: imageA, alt: "Événement équestre - Image 1" },
+  { src: imageB, alt: "Événement équestre - Image 2" },
+  { src: imageC, alt: "Événement équestre - Image 3" },
+  { src: imageD, alt: "Événement équestre - Image 4" },
+  { src: imageE, alt: "Événement équestre - Image 5" }
+];
+
 </script>
 
 <template>

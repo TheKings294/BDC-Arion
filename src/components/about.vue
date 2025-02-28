@@ -12,19 +12,17 @@ import ines from '@/assets/img/persons/pres-ines.avif'
 import lola from '@/assets/img/persons/pres-lola.avif'
 import clemence from '@/assets/img/persons/pres-clemence.avif'
 
-onMounted(() => {
-  document.documentElement.style.backgroundColor = '#fff';
-});
+
 
 // Données de l'équipe
 const teamMembers = [
-  { name: "Lison Engelhard", role: "Vice-présidente", image: lison},
+  { name: "Lison Engelhard", role: "Vice‒présidente", image: lison},
   { name: "Chloé Chaumette", role: "Équipe événementiel", image: chloe },
   { name: "Maïlys Larroque", role: "Équipe événementiel", image: mailys },
-  { name: "Ilona François-Dit-Charlemagne", role: "Équipe événementiel", image: ilona },
+  { name: "Ilona François‒Dit–Charlemagne", role: "Équipe événementiel", image: ilona },
   { name: "Elinn Lafitte", role: "Équipe partenariats", image: elinn },
   { name: "Manon Founeau", role: "Équipe partenariats", image: manon },
-  { name: "Orlane Jean-Baptiste", role: "Équipe communication", image: orlane },
+  { name: "Orlane Jean–Baptiste", role: "Équipe communication", image: orlane },
   { name: "Inès Vandentorren", role: "Équipe communication", image: ines },
   { name: "Lola Corre", role: "Équipe communication", image: lola },
   { name: "Clémence Levicki", role: "Équipe communication", image: clemence }
@@ -32,15 +30,15 @@ const teamMembers = [
 </script>
 
 <template>
+
+
   <div class="container-fluid p-0">
-    <!-- Bannière pleine largeur -->
     <div class="position-relative banner">
       <img src="../assets/img/image-bella-marion-cassille-lison.avif"
            class="img-fluid object-fit-cover"
            alt="Bannière">
     </div>
 
-    <!-- Présentation -->
     <div class="container py-5 text-center">
       <h1 class="display-3 fw-bold">QUI SOMMES&ndash;NOUS ?</h1>
 
@@ -91,8 +89,8 @@ const teamMembers = [
 
 <style scoped>
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 
 .profile-img {
@@ -107,5 +105,9 @@ const teamMembers = [
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+p{
+font-size : 4vh;
 }
 </style>
