@@ -1,6 +1,5 @@
 <script setup>
 import TeamDesscription from './littel-compnent/team_desscription.vue';
-import { onMounted } from "vue";
 import lison from '@/assets/img/persons/pres-lison.avif'
 import chloe from '@/assets/img/persons/pres-chloe.avif'
 import mailys from '@/assets/img/persons/pres-mailys.avif'
@@ -11,8 +10,6 @@ import orlane from '@/assets/img/persons/pres-orlane.avif'
 import ines from '@/assets/img/persons/pres-ines.avif'
 import lola from '@/assets/img/persons/pres-lola.avif'
 import clemence from '@/assets/img/persons/pres-clemence.avif'
-
-
 
 // Données de l'équipe
 const teamMembers = [
