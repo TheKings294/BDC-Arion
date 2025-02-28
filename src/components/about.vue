@@ -108,6 +108,6 @@ const teamMembers = [
 }
 
 p{
-font-size : 4vh;
+font-size : 3.2vh;
 }
 </style>

@@ -43,17 +43,17 @@ const router = createRouter({
 
 // Fonction pour appliquer les styles dynamiquement
 const applyStyles = (isHome) => {
-  const bodyColor = isHome ? "#1E1E1E" : "#FAFAFA";
-  const headerFooterColor = isHome ? "#252525" : "#FFFFFF";
+  const bodyColor = isHome ? "#000000" : "#FAFAFA";
+  const headerFooterColor = isHome ? "#171f26" : "#FFFFFF";
   const textColor = isHome ? "#EAEAEA" : "#333333";
 
   const boxShadow = isHome
-    ? "0px 4px 10px rgba(255, 255, 255, 0.08)" // Effet lumineux subtil pour le header/footer sombre
-    : "0px 4px 10px rgba(0, 0, 0, 0.1)"; // Ombre douce pour le header/footer clair
+    ? "0px 4px 10px rgba(255, 255, 255, 0.08)"
+    : "0px 4px 10px rgba(0, 0, 0, 0.1)";
 
   const border = isHome
-    ? "1px solid rgba(255, 255, 255, 0.1)" // Séparation fine pour un fond sombre
-    : "1px solid rgba(0, 0, 0, 0.08)"; // Séparation fine pour un fond clair
+    ? "1px solid rgba(255, 255, 255, 0.1)"
+    : "1px solid rgba(0, 0, 0, 0.08)"; 
 
   // Appliquer les styles au body
   document.body.style.backgroundColor = bodyColor;
