@@ -1,30 +1,28 @@
 <script setup>
 import TeamDesscription from './littel-compnent/team_desscription.vue';
 import { onMounted } from "vue";
-import lison from '@/assets/img/persons/pres-lison.webp'
-import chloe from '@/assets/img/persons/pres-chloe.webp'
-import mailys from '@/assets/img/persons/pres-mailys.webp'
-import ilona from '@/assets/img/persons/pres-ilona.webp'
-import elinn from '@/assets/img/persons/pres-elinn.webp'
-import manon from '@/assets/img/persons/pres-manon.webp'
-import orlane from '@/assets/img/persons/pres-orlane.webp'
-import ines from '@/assets/img/persons/pres-ines.webp'
-import lola from '@/assets/img/persons/pres-lola.webp'
-import clemence from '@/assets/img/persons/pres-clemence.webp'
+import lison from '@/assets/img/persons/pres-lison.avif'
+import chloe from '@/assets/img/persons/pres-chloe.avif'
+import mailys from '@/assets/img/persons/pres-mailys.avif'
+import ilona from '@/assets/img/persons/pres-ilona.avif'
+import elinn from '@/assets/img/persons/pres-elinn.avif'
+import manon from '@/assets/img/persons/pres-manon.avif'
+import orlane from '@/assets/img/persons/pres-orlane.avif'
+import ines from '@/assets/img/persons/pres-ines.avif'
+import lola from '@/assets/img/persons/pres-lola.avif'
+import clemence from '@/assets/img/persons/pres-clemence.avif'
 
-onMounted(() => {
-  document.documentElement.style.backgroundColor = '#fff';
-});
+
 
 // Données de l'équipe
 const teamMembers = [
-  { name: "Lison Engelhard", role: "Vice-présidente", image: lison},
+  { name: "Lison Engelhard", role: "Vice‒présidente", image: lison},
   { name: "Chloé Chaumette", role: "Équipe événementiel", image: chloe },
   { name: "Maïlys Larroque", role: "Équipe événementiel", image: mailys },
-  { name: "Ilona François-Dit-Charlemagne", role: "Équipe événementiel", image: ilona },
+  { name: "Ilona François‒Dit–Charlemagne", role: "Équipe événementiel", image: ilona },
   { name: "Elinn Lafitte", role: "Équipe partenariats", image: elinn },
   { name: "Manon Founeau", role: "Équipe partenariats", image: manon },
-  { name: "Orlane Jean-Baptiste", role: "Équipe communication", image: orlane },
+  { name: "Orlane Jean–Baptiste", role: "Équipe communication", image: orlane },
   { name: "Inès Vandentorren", role: "Équipe communication", image: ines },
   { name: "Lola Corre", role: "Équipe communication", image: lola },
   { name: "Clémence Levicki", role: "Équipe communication", image: clemence }
@@ -32,15 +30,15 @@ const teamMembers = [
 </script>
 
 <template>
+
+
   <div class="container-fluid p-0">
-    <!-- Bannière pleine largeur -->
     <div class="position-relative banner">
-      <img src="../assets/img/image+bella+marion+cassille+lison.webp"
+      <img src="../assets/img/image-bella-marion-cassille-lison.avif"
            class="img-fluid object-fit-cover"
            alt="Bannière">
     </div>
 
-    <!-- Présentation -->
     <div class="container py-5 text-center">
       <h1 class="display-3 fw-bold">QUI SOMMES&ndash;NOUS ?</h1>
 
@@ -62,7 +60,7 @@ const teamMembers = [
     <!-- Présidente -->
     <div class="container text-center mb-5">
       <div class="card mx-auto shadow-lg p-4" style="max-width: 400px;">
-        <img src="../assets/img/persons/pres-Cassille.webp"
+        <img src="../assets/img/persons/pres-Cassille.avif"
              class="card-img-top rounded-circle profile-img">
         <div class="card-body">
           <h4 class="card-title">Cassille Legroux-Chazée</h4>
@@ -91,8 +89,8 @@ const teamMembers = [
 
 <style scoped>
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 
 .profile-img {
@@ -107,5 +105,9 @@ const teamMembers = [
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+p{
+font-size : 4vh;
 }
 </style>

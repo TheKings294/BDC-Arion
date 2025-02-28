@@ -1,29 +1,66 @@
 <script setup>
-import {onMounted} from "vue";
-import time from '@/assets/img/version+ordi+event.webp'
-import event_description from './littel-compnent/event_description.vue'
+import { ref, onMounted } from "vue";
+import time_1 from '@/assets/img/version-ordi-event.webp';
+import time_2 from '@/assets/img/version-mobile-event.webp';
+import EventDescription from './littel-compnent/event_description.vue';
+
+const times = ref(time_1);
+
+function updateImageBasedOnSize() {
+  times.value = window.innerWidth < 1000 ? time_2 : time_1;
+}
+
 onMounted(() => {
-  document.querySelector('body').style.background = '#fff'
-})
+  updateImageBasedOnSize();
+  window.addEventListener('resize', updateImageBasedOnSize);
+});
 </script>
 
 <template>
-  <div class="container-fluid">
-    <div class="row">
-      <h1 class="text-center mt-3">Nos Évènements</h1>
-      <div id="time-line-event" class="text-center">
-        <img :src="time" alt="eventTime" class="w-80">
-      </div>
+  <div class="container py-5">
+    <!-- Titre principal -->
+    <h1 class="text-center mb-4">Nos Évènements</h1>
+
+    <!-- Image de la timeline -->
+    <div class="text-center mb-5">
+      <img :src="times" alt="Chronologie des événements" class="img-fluid w-100">
     </div>
-    <div id="description-event" class="row d-flex flex-wrap align-items-center mt-5 flex-column">
-      <event_description :title="'Des conférences à thèmes'" :content="'Des conférences sur le thème du handisport ou à la rencontre des professionnels du milieu équestre dans le but de familiariser et de faire découvrir le monde fermé de l’équitation et du handisport.'" :back="'#725643'" :color="'white'"></event_description>
-      <event_description :title="'Warm up hivernale'" :content="'Une compétition non-officielle à Jouy-le-Potier dans les écuries de Walter Lapertot. Elle se déroulera le 8 mars durant la trêve hivernale des chevaux et de leurs cavaliers. L’objectif et de leur offrir une opportunité de se remettre dans l’ambiance des compétitions avant les grandes échéances. '" :back="'#F8DF8F'" :color="'black'"></event_description>
-      <event_description :title="'Annonce du teaser'" :content="'Une soirée en collaboration avec le Bureau des étudiants Airlines de l’ISC Paris Campus Orléans et le NOVA sur le thème cowboy et western afin de diffuser et d’annoncer le teaser du Orléans Spring Jump. '" :back="'#725643'" :color="'white'"></event_description>
-      <event_description :title="'Spring jump'" :content="'description de l\'event'" :back="'#F8DF8F'" :color="'black'"></event_description>
+
+    <!-- Description des événements -->
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <EventDescription
+          title="Des conférences à thèmes"
+          content="Des conférences sur le thème du handisport ou à la rencontre des professionnels du milieu équestre dans le but de familiariser et de faire découvrir le monde fermé de l’équitation et du handisport."
+          back="#725643"
+          color="white"
+        />
+
+        <EventDescription
+          title="Warm up hivernale"
+          content="Une compétition non-officielle à Jouy-le-Potier dans les écuries de Walter Lapertot. Elle se déroulera le 8 mars durant la trêve hivernale des chevaux et de leurs cavaliers. L’objectif est de leur offrir une opportunité de se remettre dans l’ambiance des compétitions avant les grandes échéances."
+          back="#F8DF8F"
+          color="black"
+        />
+
+        <EventDescription
+          title="Annonce du teaser"
+          content="Une soirée en collaboration avec le Bureau des étudiants Airlines de l’ISC Paris Campus Orléans et le NOVA sur le thème cowboy et western afin de diffuser et d’annoncer le teaser du Orléans Spring Jump."
+          back="#725643"
+          color="white"
+        />
+
+        <EventDescription
+          title="Spring jump"
+          content="Description de l'événement."
+          back="#F8DF8F"
+          color="black"
+        />
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-
+/* Ajoute ici des styles si nécessaire */
 </style>
