@@ -39,7 +39,7 @@ onMounted(() => {
         <EventDescription
           title="Warm up hivernale"
           content="Une compétition non-officielle à Jouy-le-Potier dans les écuries de Walter Lapertot. Elle se déroulera le 8 mars durant la trêve hivernale des chevaux et de leurs cavaliers. L’objectif est de leur offrir une opportunité de se remettre dans l’ambiance des compétitions avant les grandes échéances."
-          back="#F8DF8F"
+          back="#E1D2C8"
           color="black"
         />
 
@@ -53,7 +53,7 @@ onMounted(() => {
         <EventDescription
           title="Spring jump"
           content="Description de l'événement."
-          back="#F8DF8F"
+          back="#E1D2C8"
           color="black"
         />
       </div>

@@ -96,7 +96,7 @@ const partners = ref([
   },
   {
     title: "Formule Classique",
-    price: "SUR DEVIS",
+    price: "sur devis",
     description: `
       • Accès à l’espace partenaire
       • Nom dans la liste des partenaires
@@ -110,7 +110,7 @@ const partners = ref([
 
 <template>
   <div class="container text-center mt-5">
-    <h1 class="mb-4">Nos Partenaires</h1>
+    <h1 class="mb-4">Nos Offres de Partenariat</h1>
 
     <!-- Image LCP préchargée et cachée -->
     <img

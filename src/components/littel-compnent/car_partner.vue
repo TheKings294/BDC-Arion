@@ -13,7 +13,7 @@ import { ArrowDownToLine } from 'lucide-vue-next';
 <template>
   <article class="card p-3 text-center shadow">
     <h2 class="partner-title">{{ title }}</h2>
-    <h3 class="partner-price">{{ price }}</h3>
+    <h3 class="partner-price" style="font-family: Arial">{{ price }}</h3>
     <p v-if="accroche" class="accroche">{{ accroche }}</p>
 
     <div v-if="image" class="partner-image">

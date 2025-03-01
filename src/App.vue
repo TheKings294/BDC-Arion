@@ -45,7 +45,7 @@ export default {
                 <router-link to="/events" class="nav-link">Évènements</router-link>
               </li>
               <li class="nav-item">
-                <router-link to="/spring_jump" class="nav-link">Spring Jump</router-link>
+                <router-link to="/spring_jump" class="nav-link">Orléans Spring Jump</router-link>
               </li>
             </ul>
           </div>
@@ -62,7 +62,7 @@ export default {
         <div class="row">
           <!-- Bouton Nous contacter -->
           <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            <router-link to="/form" class="btn btn-primary">Nous contacter</router-link>
+            <router-link to="/form" class="btn" style="background-color: #E1D2C8">Nous contacter</router-link>
           </div>
 
           <!-- Liens réseaux sociaux -->

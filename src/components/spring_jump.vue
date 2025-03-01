@@ -11,8 +11,8 @@ import arrow from '@/assets/img/fleche.webp';
     <!-- Introduction -->
     <div class="text-center fs-4 mx-auto mt-4 px-3 text-break">
       <p>
-        Une compétition de saut d'obstacles amateur et professionnel sur plusieurs jours.
-        C'est l'ambition du Bureau des Cavaliers Arions pour 2025.
+        Une compétition de saut d'obstacles amateur et professionnel sur plusieurs jours,
+        c'est l'ambition du Bureau des Cavaliers Arions pour 2025.
       </p>
     </div>
 
@@ -37,7 +37,7 @@ import arrow from '@/assets/img/fleche.webp';
     <!-- Programme -->
     <div class="mt-5">
       <h2 class="text-center fw-bold">Au programme :</h2>
-      <article class="text-center mx-auto px-3 text-break">
+      <article class="text-center fs-4 mx-auto px-3 text-break">
         <p class="fw-semibold">
           - Une compétition dans un cadre exceptionnel <br>
           - Des spectacles <br>
@@ -58,7 +58,7 @@ import arrow from '@/assets/img/fleche.webp';
 
     <!-- Description longue -->
     <div class="mt-5">
-      <p class="text-center fs-5 px-3 text-break">
+      <p class="text-center fs-4 px-3 text-break">
         Vivez une expérience inoubliable en assistant à l'Orléans Spring Jump.
         Profitez de notre espace partenaire équipé d’une restauration haut de gamme et d’un buffet d’exception.
         Découvrez l’endroit parfait pour établir de nouveaux contacts et faire de nouvelles rencontres,
